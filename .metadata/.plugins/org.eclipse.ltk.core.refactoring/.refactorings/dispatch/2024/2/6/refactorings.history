@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;OrderDispatched.java&apos; to &apos;TrackingService/src/main/java/com.lypd.TrackingService.message&apos;&#x0D;&#x0A;- Original project: &apos;dispatch&apos;&#x0D;&#x0A;- Destination element: &apos;TrackingService/src/main/java/com.lypd.TrackingService.message&apos;&#x0D;&#x0A;- Original element: &apos;dev.lytech.dispatch.message.OrderDispatched.java&apos;" description="Copy compilation unit" destination="=TrackingService/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.lypd.TrackingService.message" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;dev.lytech.dispatch.message{OrderDispatched.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1707233327558" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,14 @@
+package dev.lytech.dispatch.service;
+
+import org.springframework.stereotype.Service;
+
+import lombok.extern.slf4j.Slf4j;
+
+@Service
+@Slf4j
+public class DispatchService {
+
+	public void process(String payload) {
+		log.info("Process payload " +payload);
+	}
+}

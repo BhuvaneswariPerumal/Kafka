@@ -1,0 +1,10 @@
+package com.lypd.TrackingService;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@ComponentScan("com.lypd")
+@Configuration
+public class TRackinConfiguration {
+
+}

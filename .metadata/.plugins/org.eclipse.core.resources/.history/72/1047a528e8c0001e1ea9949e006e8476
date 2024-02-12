@@ -1,0 +1,21 @@
+package dev.lytech.dispatch.handler;
+
+import static org.mockito.Mockito.mock;
+
+import org.junit.jupiter.api.BeforeEach;
+
+import dev.lytech.dispatch.service.DispatchService;
+
+public class OrderCreatedHandlerTest {
+	
+	private OrderCreatedHandler handler;
+	
+	private DispatchService dispatchServiceMock;
+	
+	@BeforeEach
+	void setUp() {
+		dispatchServiceMock = mock(DispatchService.class);
+		handler = new OrderCreatedHandler(dispatchServiceMock);
+	}
+
+}

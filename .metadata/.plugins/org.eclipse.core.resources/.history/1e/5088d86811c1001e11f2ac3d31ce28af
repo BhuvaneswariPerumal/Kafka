@@ -1,0 +1,5 @@
+package dev.lytech.dispatch.message;
+
+public class OrderCreated {
+
+}

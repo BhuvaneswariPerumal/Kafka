@@ -1,0 +1,30 @@
+package dev.lytech.dispatch.handler;
+
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import dev.lytech.dispatch.service.DispatchService;
+
+public class OrderCreatedHandlerTest {
+	
+	private OrderCreatedHandler handler;
+	
+	private DispatchService dispatchServiceMock;
+	
+	@BeforeEach
+	void setUp() {
+		dispatchServiceMock = mock(DispatchService.class);
+		handler = new OrderCreatedHandler(dispatchServiceMock);
+	}
+	
+	@Test
+	void listen() {
+		handler.listen("payload");
+		verify(dispatchServiceMock,times(1)).process("payload");
+	}
+
+}

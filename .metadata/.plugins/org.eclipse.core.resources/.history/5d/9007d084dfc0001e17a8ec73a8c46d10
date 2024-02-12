@@ -1,0 +1,5 @@
+package dev.lytech.dispatch.handler;
+
+public class OrderCreatedHandler {
+
+}

@@ -1,0 +1,5 @@
+package dev.lytech.dispatch;
+
+public class DispatchConfiguration {
+
+}

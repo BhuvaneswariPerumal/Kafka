@@ -1,0 +1,5 @@
+package dev.lytech.dispatch.service;
+
+public class DispatchService {
+
+}
