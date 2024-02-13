@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class OrderCreated {
 	
+	
 	UUID orderId;
 	
 	String item;
